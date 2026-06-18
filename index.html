@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phiraneish A.T | Full-Stack Software Developer</title>
+    
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Portfolio of Phiraneish A.T, an M.Sc Software Systems student at Kongu Engineering College. Specializing in full-stack web development, AI search algorithms, and robust database systems.">
+    <meta name="keywords" content="Phiraneish A.T, Full-Stack Developer, Software Systems, Kongu Engineering College, Web Developer, AI developer, portfolio">
+    <meta name="author" content="Phiraneish A.T">
+
+    <!-- CSS stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Ambient background blobs -->
+    <div class="bg-blob bg-blob-1"></div>
+    <div class="bg-blob bg-blob-2"></div>
+    <div class="bg-blob bg-blob-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="navbarContainer">
+            <a href="#home" class="logo">
+                PHIRANEISH<span class="logo-dot">.</span>
+            </a>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#journey" class="nav-link">Journey</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="me.pdf" download class="btn btn-resume-mobile"><i class="fa-solid fa-download"></i> Resume</a>
+            </div>
+
+            <div class="nav-actions">
+                <a href="me.pdf" download class="btn btn-resume"><i class="fa-solid fa-download"></i> Resume</a>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="home">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="status-badge scroll-reveal">
+                        <span class="pulse-dot"></span>
+                        <span>Available for projects & roles</span>
+                    </div>
+                    
+                    <h1 class="hero-title scroll-reveal">
+                        Hi, I'm <br>
+                        <span class="gradient-text">Phiraneish A.T</span>
+                    </h1>
+                    
+                    <div class="typewriter-container scroll-reveal">
+                        <span class="typewriter-prefix">&lt;</span>
+                        <span id="typing" class="typewriter-text"></span>
+                        <span class="typewriter-suffix"> /&gt;</span>
+                    </div>
+                    
+                    <p class="hero-desc scroll-reveal">
+                        M.Sc Software Systems student at Kongu Engineering College, passionate about building high-performance full-stack applications, AI integration, and robust database architectures.
+                    </p>
+                    
+                    <div class="hero-buttons scroll-reveal">
+                        <a href="me.pdf" download class="btn btn-primary">
+                            <span>Get Resume</span>
+                            <i class="fa-solid fa-arrow-down-long"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Let's Connect</span>
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="hero-socials scroll-reveal">
+                        <a href="https://github.com" target="_blank" class="social-icon" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="social-icon" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" class="social-icon" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me" target="_blank" class="social-icon" aria-label="WhatsApp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-illustration scroll-reveal">
+                    <div class="profile-frame">
+                        <div class="circle-glow"></div>
+                        <div class="image-wrapper">
+                            <img src="me.png" alt="Phiraneish A.T">
+                        </div>
+                        
+                        <!-- Floating badges -->
+                        <div class="floating-badge badge-1 animate-float-slow">
+                            <div class="badge-icon"><i class="fa-solid fa-code"></i></div>
+                            <div>
+                                <h4>Full Stack</h4>
+                                <p>Developer</p>
+                            </div>
+                        </div>
+                        <div class="floating-badge badge-2 animate-float-medium">
+                            <div class="badge-icon"><i class="fa-solid fa-brain"></i></div>
+                            <div>
+                                <h4>AI & Search</h4>
+                                <p>Enthusiast</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <div class="stats-grid scroll-reveal">
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-cubes"></i></div>
+                    <div class="stat-info">
+                        <h3 class="stat-number" data-target="10">0</h3>
+                        <p class="stat-label">Projects Built</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-microchip"></i></div>
+                    <div class="stat-info">
+                        <h3 class="stat-number" data-target="15">0</h3>
+                        <p class="stat-label">Technologies Mastered</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-award"></i></div>
+                    <div class="stat-info">
+                        <h3 class="stat-number" data-target="3">0</h3>
+                        <p class="stat-label">Key Certifications</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="section-header scroll-reveal">
+                <span class="section-tagline">Background</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="about-container">
+                <!-- Coding Terminal Window Mockup -->
+                <div class="terminal-card scroll-reveal">
+                    <div class="terminal-header">
+                        <span class="terminal-dot close"></span>
+                        <span class="terminal-dot minimize"></span>
+                        <span class="terminal-dot expand"></span>
+                        <span class="terminal-title">phiraneish.json</span>
+                    </div>
+                    <div class="terminal-body">
+                        <pre><code><span class="terminal-command">phiraneish $</span> cat developer_profile.json
+{
+  <span class="json-key">"name"</span>: <span class="json-value">"Phiraneish A.T"</span>,
+  <span class="json-key">"role"</span>: <span class="json-value">"Full-Stack Software Developer"</span>,
+  <span class="json-key">"education"</span>: {
+    <span class="json-key">"degree"</span>: <span class="json-value">"M.Sc Software Systems"</span>,
+    <span class="json-key">"institute"</span>: <span class="json-value">"Kongu Engineering College"</span>
+  },
+  <span class="json-key">"core_skills"</span>: [
+    <span class="json-value">"Full Stack Web Development"</span>,
+    <span class="json-value">"Database Engineering"</span>,
+    <span class="json-value">"AI & Algorithms"</span>
+  ],
+  <span class="json-key">"passion"</span>: <span class="json-value">"Creating clean code & solving complex problems"</span>
+}</code></pre>
+                    </div>
+                </div>
+                
+                <div class="about-text scroll-reveal">
+                    <h3>Who I Am</h3>
+                    <p>
+                        I am a software engineering student specializing in Software Systems. I have a solid foundation in algorithms, databases, and modern frameworks, allowing me to bridge the gap between complex analytical problems and user-friendly web solutions.
+                    </p>
+                    <p>
+                        My objective is to construct reliable, scalable, and intuitive software. I enjoy learning and applying state-of-the-art technologies, staying up-to-date with industry trends, and translating abstract ideas into production-ready code.
+                    </p>
+                    
+                    <div class="education-highlights">
+                        <div class="edu-item">
+                            <div class="edu-marker"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <div class="edu-details">
+                                <h4>M.Sc in Software Systems</h4>
+                                <p>Kongu Engineering College (Ongoing)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-section" id="skills">
+            <div class="section-header scroll-reveal">
+                <span class="section-tagline">Capabilities</span>
+                <h2 class="section-title">My Tech Stack</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Skill Group 1 -->
+                <div class="skill-group-card scroll-reveal">
+                    <div class="skill-group-header">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-badge"><i class="fa-brands fa-html5 text-orange"></i> HTML5</div>
+                        <div class="skill-badge"><i class="fa-brands fa-css3-alt text-blue"></i> CSS3</div>
+                        <div class="skill-badge"><i class="fa-brands fa-js text-yellow"></i> JavaScript</div>
+                        <div class="skill-badge"><i class="fa-brands fa-react text-cyan"></i> React</div>
+                    </div>
+                </div>
+                
+                <!-- Skill Group 2 -->
+                <div class="skill-group-card scroll-reveal">
+                    <div class="skill-group-header">
+                        <i class="fa-solid fa-server"></i>
+                        <h3>Backend & Database</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-badge"><i class="fa-brands fa-node-js text-green"></i> Node.js</div>
+                        <div class="skill-badge"><i class="fa-solid fa-bolt text-gray"></i> Express</div>
+                        <div class="skill-badge"><i class="fa-brands fa-python text-blue"></i> Python</div>
+                        <div class="skill-badge"><i class="fa-brands fa-java text-orange"></i> Java</div>
+                        <div class="skill-badge"><i class="fa-solid fa-database text-cyan"></i> SQL / SQLite</div>
+                        <div class="skill-badge"><i class="fa-solid fa-leaf text-green"></i> MongoDB</div>
+                    </div>
+                </div>
+                
+                <!-- Skill Group 3 -->
+                <div class="skill-group-card scroll-reveal">
+                    <div class="skill-group-header">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        <h3>Tools & Others</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-badge"><i class="fa-brands fa-git-alt text-orange"></i> Git / GitHub</div>
+                        <div class="skill-badge"><i class="fa-brands fa-aws text-orange"></i> AWS</div>
+                        <div class="skill-badge"><i class="fa-solid fa-mobile-screen text-cyan"></i> Flutter</div>
+                        <div class="skill-badge"><i class="fa-solid fa-brain text-purple"></i> AI / Algorithms</div>
+                        <div class="skill-badge"><i class="fa-solid fa-terminal text-gray"></i> C / C++</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section" id="projects">
+            <div class="section-header scroll-reveal">
+                <span class="section-tagline">My Creations</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card scroll-reveal">
+                    <div class="project-image-fallback">
+                        <i class="fa-solid fa-users-rectangle"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <h3>Urban Rural Mentor Platform</h3>
+                        <p>
+                            An interactive web portal bridging the mentorship gap between rural mentees and urban professionals, enabling video schedules, feedback channels, and curated resources.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-link" aria-label="Source code"><i class="fa-brands fa-github"></i> Source</a>
+                            <a href="#" target="_blank" class="project-link" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card scroll-reveal">
+                    <div class="project-image-fallback">
+                        <i class="fa-solid fa-database-gear"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>OOP</span>
+                            <span>SQLite</span>
+                        </div>
+                        <h3>Student Management System</h3>
+                        <p>
+                            A highly robust OOP-based management application features search indexes, relational SQL integrations, automated grades calculation, and report generation.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-link" aria-label="Source code"><i class="fa-brands fa-github"></i> Source</a>
+                            <a href="#" target="_blank" class="project-link" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card scroll-reveal">
+                    <div class="project-image-fallback">
+                        <i class="fa-solid fa-gears"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>AI Search</span>
+                            <span>Algorithms</span>
+                        </div>
+                        <h3>AI Search Algorithms Visualizer</h3>
+                        <p>
+                            Algorithmic simulator analyzing pathfinding models (BFS, DFS, Uniform Cost Search) using animated trees, evaluating time complexity, path efficiency, and node steps.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-link" aria-label="Source code"><i class="fa-brands fa-github"></i> Source</a>
+                            <a href="#" target="_blank" class="project-link" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Journey Section -->
+        <section class="journey-section" id="journey">
+            <div class="section-header scroll-reveal">
+                <span class="section-tagline">My Progress</span>
+                <h2 class="section-title">Timeline Journey</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+                
+                <!-- Timeline Item 1 -->
+                <div class="timeline-item scroll-reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card-content">
+                        <span class="timeline-year">2026</span>
+                        <h3>Building Full Stack</h3>
+                        <p>Specializing in real-time server integrations, system designs, cloud configurations (AWS), and advanced full-stack web architectures using modern JS frameworks.</p>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 2 -->
+                <div class="timeline-item scroll-reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card-content">
+                        <span class="timeline-year">2025</span>
+                        <h3>AI & System Programming</h3>
+                        <p>Implemented advanced heuristics, complex graph search simulations, high-efficiency DBMS query structures, and object-oriented backend applications.</p>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 3 -->
+                <div class="timeline-item scroll-reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card-content">
+                        <span class="timeline-year">2024</span>
+                        <h3>Software Systems Inception</h3>
+                        <p>Embarked on the M.Sc Software Systems journey at Kongu Engineering College. Focused heavily on core C/C++, Java, basic data structures, and computer architecture.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="section-header scroll-reveal">
+                <span class="section-tagline">Get In Touch</span>
+                <h2 class="section-title">Contact Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info scroll-reveal">
+                    <h3>Let's build something exceptional!</h3>
+                    <p>I am looking for internship, collaboration, and full-stack software engineer opportunities. Reach out using this contact form or via any of my social profiles.</p>
+                    
+                    <div class="contact-details">
+                        <div class="info-card">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <h4>Email Me</h4>
+                                <a href="mailto:phiraneish@example.com">phiraneish@example.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="info-card">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Tamil Nadu, India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <form id="contact-form" class="contact-form scroll-reveal" autocomplete="off">
+                    <div class="form-group">
+                        <input type="text" id="name" required placeholder=" ">
+                        <label for="name">Your Name</label>
+                        <i class="fa-solid fa-user input-icon"></i>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder=" ">
+                        <label for="email">Email Address</label>
+                        <i class="fa-solid fa-envelope input-icon"></i>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea id="message" required placeholder=" "></textarea>
+                        <label for="message">Your Message</label>
+                        <i class="fa-solid fa-comment input-icon"></i>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-submit" id="btn-submit">
+                        <span class="btn-text">Send Message</span>
+                        <i class="fa-solid fa-paper-plane submit-icon"></i>
+                    </button>
+                    
+                    <div class="form-result" id="form-result"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <h3>PHIRANEISH A.T</h3>
+                <p>M.Sc Software Systems | Developer</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#journey">Journey</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Phiraneish A.T. All rights reserved.</p>
+        </div>
+        <a href="#home" class="back-to-top" id="back-to-top" aria-label="Back to top">
+            <i class="fa-solid fa-chevron-up"></i>
+        </a>
+    </footer>
+
+    <!-- JS Logic -->
+    <script src="script.js"></script>
+</body>
+</html>
